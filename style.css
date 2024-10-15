@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    margin-right: 50px; /* Space between logo and nav items */
+}
+
+nav {
+    display: flex;
+    gap: 30px; /* Space between nav items */
+    margin-left: auto; /* Push nav to the right */
+}
+
+nav a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav a i {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0; 
+    padding: 0;
+}
+
+table, tr, td {
+    border: 1px solid black;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.content-table th, .content-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.content-table th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for headers */
+}
+
+.content-table tr.active-row {
+    background-color: #f9f9f9;
+}
+
+.content-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.card-banner {
+    width: var(--width);
+    height: var(--height);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Space above the image */
+}
+
+.img-cover {
+    max-width: 100%;
+    height: auto;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* List Styles */
+ul {
+    list-style-type: circle; /* Circle style for the list */
+    padding-left: 20px; /* Padding to the left for indentation */
+}
+
+/* List Item Styles */
+li {
+    margin: 10px 0; /* Spacing between list items */
+}
+
+/* Link Styles */
+.navbar-link {
+    text-decoration: none; /* Remove underline from links */
+    color: #007bff; /* Blue color for links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar-link:hover {
+    color: #0056b3; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    p {
+        font-size: 16px; /* Smaller font size for mobile */
+    }
+
+    .navbar-link {
+        font-size: 16px; /* Adjust link size for mobile */
+    }
+}
+.maindiv {
+    display: flex; /* Використовуємо flexbox для горизонтального вирівнювання */
+    justify-content: center; /* Центруємо елементи по горизонталі */
+    align-items: center; /* Центруємо елементи по вертикалі */
+    gap: 20px; /* Відстань між зображенням та відео */
+    margin: 20px; /* Відступ зовні */
+}
+
+.img, .video {
+    width: 100%; /* Займаємо 100% ширини контейнера */
+    max-width: 560px; /* Максимальна ширина для зображення та відео */
+    aspect-ratio: 16 / 9; /* Співвідношення сторін для відео */
+    overflow: hidden; /* Сховати переповнені частини */
+}
+
+.main_image {
+    width: 100%; /* Зображення займає 100% ширини контейнера */
+    height: auto; /* Автоматична висота для збереження співвідношення сторін */
+}
+
+iframe {
+    width: 100%; /* Відео займає 100% ширини контейнера */
+    height: 100%; /* Висота відео дорівнює висоті контейнера */
+}
